@@ -1,0 +1,17 @@
+<ion-content>
+  <link href='https://fonts.googleapis.com/css?family=Black Han Sans' rel='stylesheet'>
+  <div class="header">
+    <h1>Menu</h1>
+    <div class="avatar">
+      <ion-img src="assets\images\userface.jpg"></ion-img>
+    </div>
+  </div>
+
+  <app-searchbar></app-searchbar>
+
+  <h1 class="list-header">All Products</h1>
+  <div class="food-list">
+    <app-food-card *ngFor="let food of foods" [item]="food" (clicked)="goToDetailPage(food.id)"></app-food-card>
+  </div>
+
+</ion-content>
