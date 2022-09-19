@@ -1,16 +1,16 @@
 *{
-    font-family: 'Black Han Sans';
+    font-family: 'Consolas';
     }
 .i{
     font-family: 'Black Han Sans';
-    color:#005f81;
-}
+    color:#ffffff;
+    }
     .menu-header-bg {
     height:180px;
     width: 350px;
-    background: #005f81;
+    background: #ffff00;
    
-    box-shadow: 0px 1px 10px rgba(98, 140, 255, 0.5);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
     transform: rotate(-15deg);
     border-radius: 10px 10px 10px 50px;
     margin-left: -18px;
@@ -35,25 +35,25 @@
 
     .logo2 {
     margin-top: 5%;
-    width: 60px;
+    width: 70px;
     height: 8-px;
     border-radius: 50%;
     margin-left: -100%;
-    border: 7px solid #1e8cb4;
+    border: 3px solid #000000;
     margin-right: 14px;
     }
 
     h2 {
     margin-top: 15%;
     font-weight: 300;
-    color: #fff;
+    color: rgb(0, 0, 0);
     }
 
     p {
     font-size: 12px;
-    color: #e4e4e4;
+    color: #000000;
     font-weight: 100;
-    font-family: 'Black Han Sans';
+    font-family: 'Consolas';
     letter-spacing: 0.4px;
     }
     }
