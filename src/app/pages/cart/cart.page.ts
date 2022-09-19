@@ -9,6 +9,7 @@ import { CartService } from 'src/app/services/cart.service';
   templateUrl: './cart.page.html',
   styleUrls: ['./cart.page.scss'],
 })
+
 export class CartPage implements OnInit {
   cartItems$: Observable<CartItem[]>;
   totalAmount$: Observable<number>;
