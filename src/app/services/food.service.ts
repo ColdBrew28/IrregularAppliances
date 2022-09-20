@@ -9,83 +9,85 @@ export class FoodService {
     return [
       {
         id: 1,
-        title: 'Ae Kuri Mahi',
-        price: 500,
-        image: 'assets/images/products/Ae Kuri Mahi.png',
+        title: 'CARRIER 2.5HP INV SPLIT AIRCON',
+        price: 65500,
+        image: 'assets/images/products/CARRIER.png',
         description:
-          'Suitable for working dogs, sporting dogs or those who are always on the move, our Ae Kuri Mahi range has the right balance of nutrients, energy, and flavour to keep your active furry friend healthy and strong.',
+        'Nominal Size: 2.5HP, Cooling Capacity: 21,600 (4,320 – 24,480), Color: White, Filter: Advanced Nano Filtration System, Energy Efficiency Ratio: 11.7 (18 – 11.7)',
+
+        
       },
       {
         id: 2,
-        title: 'Allergies',
-        price: 500,
-        image: 'assets/images/products/Allergies.png',
+        title: 'PANASONIC 3HP INV SPLIT',
+        price: 79095,
+        image: 'assets/images/products/PANASONIC.png',
         description:
-          'Our no nasties, no nonsense Perfect Bowl Food Allergies is especially created as a complete healthy diet which is easily digested for our more sensitive doggy friends with allergies. ',
+          'Nominal Size: 3.0 HP, Cooling Capacity: 29,520 kj/h, Filter: Anti-Bacterial Filter, Energy Efficiency Ratio: 12.83,',
       },
       {
         id: 3,
-        title: 'Balanced',
-        price: 500,
-        image: 'assets/images/products/Balanced.png',
+        title: 'SAMSUNG INV FRENCH DOOR',
+        price: 139995,
+        image: 'assets/images/products/SAMSUNGINV.png',
         description:
-          'Our all-natural premium Perfect Bowl Food Balanced is lovingly blended and enriched as a healthy complete diet for our doggy friends of all shapes and sizes. ',
+          'Tempered Glass Shelves, Fridge Shelf Material, Digital Inverter Technology, Compressor Type, 912 x 1825 x 898 Net Dimensions (WxHxD)',
       },
       {
         id: 4,
-        title: 'Grain Free',
-        price: 500,
-        image: 'assets/images/products/Grain Free.png',
+        title: 'SAMSUNG 23.2CUFT REFRIGERATOR',
+        price: 139995,
+        image: 'assets/images/products/SAMSUNGREFRIGERATOR.png',
         description:
-          'Our specially formulated grain free dog food recipe is suitable for our doggy friends with grain allergies. Made primarily with NZ sourced fishmeal and ground potatoes. ',
+          'Type: Side by Side, Smart Function: YES, Capacity, Freezer: 247 Liters, Capacity, Fresh Food: 410 Liters, Capacity, Total Shelf Area: 657 Liters ',
       },
       {
         id: 5,
-        title: 'Puppy',
-        price: 500,
-        image: 'assets/images/products/Puppy.png',
+        title: 'La Germania Gas Cooking Range',
+        price: 18995,
+        image: 'assets/images/products/LaGermania.png',
         description:
-          'Our little puppy friends have special dietary needs for their growing brains and bodies. With no fillers, no nasties and enriched with omegas 3 + 6 and other essential vitamins and minerals.',
+          '1 Large, 2 medium Gas burners, Automatic Piezo Ignition, 100% Porcelain Enamelled white Body, 49 Liters Oven Capacity',
       },
       {
         id: 6,
-        title: 'Ae Kuri Mahi Trial',
-        price: 300,
-        image: 'assets/images/products/Ae Kuri Mahi Trial.png',
+        title: 'White Westinghouse Gas Cooking Range ',
+        price: 17195,
+        image: 'assets/images/products/WhiteWestinghouse.png',
         description:
-          'Why not try our new Risk-Free 1.5kg Balanced trial pack - now in environmentally friendly brown paper bags. ',
+          'Gas Hob with Gas Oven, To Surface: Stainless Steel, 62 L Oven Capacity, 4 Burners, Electric Push Button Ignition, 220-240 Voltage, 50/60Hz Frequency',
       },
       {
         id: 7,
-        title: 'Allergies Trial',
-        price: 300,
-        image: 'assets/images/products/Allergies Trial.png',
+        title: 'SAMSUNG 85 REAL 4K UHD SMART TV',
+        price: 134990,
+        image: 'assets/images/products/SAMSUNG85.png',
         description:
-          'Why not try our new Risk-Free 1.5kg Balanced trial pack - now in environmentally friendly brown paper bags.',
+          'Samsung SMART TV: Smart, Bezel Type: 3 Bezel-less, Stand Type: FLOAT LIFT, Slim Type: Slim look, Operating System :Tizen™, Power Supply: 320 W',
       },
       {
         id: 8,
-        title: 'Balanced Trial',
-        price: 300,
-        image: 'assets/images/products/Balanced Trial.png',
+        title: 'SAMSUNG 98 NEO QLED 4K SMART TV',
+        price: 399990,
+        image: 'assets/images/products/SAMSUNG98.png',
         description:
-          'Why not try our new Risk-Free 1.5kg Allergies trial pack - now in environmentally friendly brown paper bags. ',
+          'Display Resolution: 3,840 x 2,160, Picture Engine: Neo Quantum Processor 4K, HDR (High Dynamic Range): Quantum HDR 32x, Viewing Angle: Wide Viewing Angle',
       },
       {
         id: 9,
-        title: 'Grain Free Trial',
-        price: 300,
-        image: 'assets/images/products/Grain Free Trial.png',
+        title: 'Beko 8.0 kg. Front Load Air Vented Dryer',
+        price: 20690,
+        image: 'assets/images/products/Beko.png',
         description:
-          'Why not try our new Risk-Free 1.5kg Balanced trial pack - now in environmentally friendly brown paper bags.',
+          'Drying Capacity : 8.0 kg., Drying Technology : Air Vented, Noise Level : 67 dBA, Display Type: Digital Display, Number of Programmes: 15, Voltage : 220 V',
       },
       {
         id: 10,
-        title: 'Puppy Trial',
-        price: 300,
-        image: 'assets/images/products/Puppy Trial.png',
+        title: 'Electrolux 7.5 kg. Front Load Dryer',
+        price: 21995,
+        image: 'assets/images/products/Electrolux.png',
         description:
-          'Why not try our new Risk-Free 1.5kg Balanced trial pack - now in environmentally friendly brown paper bags.',
+          'Drying Capacity : 87.5 kg., Drying Technology : Air Vented, Noise Level : 67 dBA, Display Type: Digital Display, Number of Programmes: 15, Voltage : 220 V',
       },
     ];
   }
