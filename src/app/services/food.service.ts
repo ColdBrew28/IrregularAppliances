@@ -4,9 +4,10 @@ import { Food } from '../models/food.model';
 @Injectable({
   providedIn: 'root',
 })
-export class FoodService {
+export class FoodService { 
   getFoods(): Food[] {
-    return [
+    return [ 
+     
       {
         id: 1,
         title: 'CARRIER 2.5HP INV SPLIT AIRCON',
@@ -96,3 +97,4 @@ export class FoodService {
     return this.getFoods().find((food) => food.id === id);
   }
 }
+
