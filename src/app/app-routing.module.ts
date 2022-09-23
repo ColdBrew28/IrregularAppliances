@@ -40,7 +40,11 @@ const routes: Routes = [
   {
     path: 'faq',
     loadChildren: () => import('./pages/faq/faq.module').then( m => m.FAQPageModule)
+  },  {
+    path: 'edit-profile',
+    loadChildren: () => import('./pages/edit-profile/edit-profile.module').then( m => m.EditProfilePageModule)
   },
+
 ];
 
 @NgModule({
