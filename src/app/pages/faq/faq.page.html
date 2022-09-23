@@ -1,8 +1,17 @@
 <ion-header>
   <ion-toolbar>
     <link href='https://fonts.googleapis.com/css?family=Black Han Sans' rel='stylesheet'>
-    <ion-title>FAQ</ion-title>
-    <img class="logo" src="assets/logo 1.png" (click)= "HomePage" />
+    <ion-button class="home-button"  fill="clear"routerLink="/home">
+    Home
+    </ion-button>
+    
+     <!-- <img class="logo" src="assets/cart.png" /> -->
+    <div class="cart">
+      <ion-button  fill="clear" routerLink="/cart">
+        <ion-icon class="logo-cart" slot="icon-only" name="cart-outline"></ion-icon>
+      </ion-button>
+    </div>
+    
     <ion-buttons slot="start">
       <ion-menu-button menu="main-menu"></ion-menu-button>
     </ion-buttons>

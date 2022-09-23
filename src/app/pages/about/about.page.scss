@@ -1,25 +1,5 @@
-ion-title {
-    margin-top: 7%;
-    color: #ffff00;
-    font-size:18px;
-    font-weight: bold;
-    text-align: center; 
-    font-family: 'Black Han Sans';
-}
 
-.logo{
-    width: 30%;
-    margin-left: 75%;
-    margin-top: -15%;
-}
 
-.pic{
-    margin-left: 25%;
-    width: 50%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-
-}
 
 .card2{
     
@@ -178,3 +158,24 @@ ion-title {
    margin-left: 55%;
  }
 
+ .cart{
+    width: 30%;
+    margin-left: 75%;
+    margin-top: -2%;
+    // margin-top: -5%;
+}
+
+.logo-cart {
+  color: white;
+}
+
+.home-button {
+    color: #ffff00;
+    font-size:18px;
+    font-weight: bold;
+    text-align: center; 
+    font-family: 'Black Han Sans';
+    width: 30%;
+    margin-left: 30%;
+    
+  }
